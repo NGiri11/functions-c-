@@ -1,3 +1,5 @@
+Simple star pattern:-
+
 #include <iostream>
 
 using namespace std;
@@ -12,6 +14,32 @@ int main()
         for(c=0;c<=r;c++)
         {
           cout<<"*";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
+
+Reverse star pattern:-
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int c,r,k,n;
+    cout<<"Enter the size of pattern";
+    cin>>n;
+    for(r=0;r<n;r++)
+    {
+        for(k=n-1;k>=r;k--)
+        {
+            cout<<" ";
+        }
+        for(c=0;c<=r;c++)
+        {
+            cout<<"*";
         }
         cout<<endl;
     }
