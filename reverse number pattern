@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    
+    int n,k,r,c,l=1;
+    cout<<"enter the size of pattern";
+    cin>>n;
+    for(r=0;r<n;r++)
+    {
+        for(k=2;k>r;k--)
+        {
+            cout<<" ";
+        }
+        for(c=0;c<=r;c++)
+        {
+            cout<<l;
+            l++;
+        }
+        cout<<endl;
+    }
+    return 0;
+}
