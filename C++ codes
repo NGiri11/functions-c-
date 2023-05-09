@@ -1,0 +1,20 @@
+Code to calculate percentage and sum:-
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int per,sum=0,m,p,c,e,cs;
+    cout<<"enter your marks of maths,physics,chemistry,english,computer science";
+    cin>>m>>p>>c>>e>>cs;
+    sum=sum+m+p+c+e+cs;
+    per=(sum)/5;
+    cout<<"sum and percentage is "<<sum<<endl<<per;
+
+    return 0;
+}
+
+Code to calculate simple interest and compound interest:-
+
