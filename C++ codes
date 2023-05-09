@@ -18,3 +18,20 @@ int main()
 
 Code to calculate simple interest and compound interest:-
 
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+    float si,ci,n,a,p,r,t;
+    cout<<"Enter the principal amount, rate of interest, time period and quarter";
+    cin>>p>>r>>t>>n;
+    si=(p*r*t)/100;
+    a=p*pow((1+(r/(n*100))),(n*t));
+    ci=a-p;
+    cout<<"simple interest is ="<<si<<endl;
+    cout<<"compound interest is ="<<ci;
+
+    return 0;
+}
